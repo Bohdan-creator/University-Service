@@ -1,0 +1,16 @@
+C:\Users\kuche\source\repos\SchoolRegisterSystem.BLL\bin\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.deps.json
+C:\Users\kuche\source\repos\SchoolRegisterSystem.BLL\bin\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.dll
+C:\Users\kuche\source\repos\SchoolRegisterSystem.BLL\bin\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.pdb
+C:\Users\kuche\source\repos\SchoolRegisterSystem.BLL\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.csprojAssemblyReference.cache
+C:\Users\kuche\source\repos\SchoolRegisterSystem.BLL\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.AssemblyInfoInputs.cache
+C:\Users\kuche\source\repos\SchoolRegisterSystem.BLL\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.AssemblyInfo.cs
+C:\Users\kuche\source\repos\SchoolRegisterSystem.BLL\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.dll
+C:\Users\kuche\source\repos\SchoolRegisterSystem.BLL\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.pdb
+C:\Users\kuche\Desktop\Project\SchoolRegisterSystem.BLL\bin\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.deps.json
+C:\Users\kuche\Desktop\Project\SchoolRegisterSystem.BLL\bin\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.dll
+C:\Users\kuche\Desktop\Project\SchoolRegisterSystem.BLL\bin\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.pdb
+C:\Users\kuche\Desktop\Project\SchoolRegisterSystem.BLL\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.csprojAssemblyReference.cache
+C:\Users\kuche\Desktop\Project\SchoolRegisterSystem.BLL\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.AssemblyInfoInputs.cache
+C:\Users\kuche\Desktop\Project\SchoolRegisterSystem.BLL\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.AssemblyInfo.cs
+C:\Users\kuche\Desktop\Project\SchoolRegisterSystem.BLL\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.dll
+C:\Users\kuche\Desktop\Project\SchoolRegisterSystem.BLL\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.pdb
