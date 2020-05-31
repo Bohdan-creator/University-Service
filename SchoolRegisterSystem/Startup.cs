@@ -23,6 +23,7 @@ using SchoolRegisterSystem.Configuration;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Mvc.Razor;
+using SchoolRegisterSystem.Hubs;
 
 namespace SchoolRegister.Web
 {
@@ -167,11 +168,13 @@ namespace SchoolRegister.Web
             services.AddScoped<DbContext, ApplicationDbContext>();
             services.AddScoped<DbContextOptions<ApplicationDbContext>>();
             services.AddScoped<ISubjectService, SubjectService>();
+            services.AddSignalR();
             #endregion
             Services = services;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        [Obsolete]
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             var localizationOption =
@@ -195,6 +198,10 @@ namespace SchoolRegister.Web
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+            });
+            app.UseSignalR(routes =>
+            {
+                routes.MapHub<Chathub>("/chatHub");
             });
 
         }

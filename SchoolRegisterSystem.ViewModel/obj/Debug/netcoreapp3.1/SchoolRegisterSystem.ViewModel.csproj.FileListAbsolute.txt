@@ -20,3 +20,14 @@ C:\Users\kuche\Desktop\Project\SchoolRegisterSystem.ViewModel\obj\Debug\netcorea
 C:\Users\kuche\Desktop\Project\SchoolRegisterSystem.ViewModel\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.ViewModel.csproj.CopyComplete
 C:\Users\kuche\Desktop\Project\SchoolRegisterSystem.ViewModel\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.ViewModel.dll
 C:\Users\kuche\Desktop\Project\SchoolRegisterSystem.ViewModel\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.ViewModel.pdb
+C:\Users\kuche\Desktop\Praktykant\University-Service\SchoolRegisterSystem.ViewModel\bin\Debug\netcoreapp3.1\SchoolRegisterSystem.ViewModel.deps.json
+C:\Users\kuche\Desktop\Praktykant\University-Service\SchoolRegisterSystem.ViewModel\bin\Debug\netcoreapp3.1\SchoolRegisterSystem.ViewModel.dll
+C:\Users\kuche\Desktop\Praktykant\University-Service\SchoolRegisterSystem.ViewModel\bin\Debug\netcoreapp3.1\SchoolRegisterSystem.ViewModel.pdb
+C:\Users\kuche\Desktop\Praktykant\University-Service\SchoolRegisterSystem.ViewModel\bin\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.dll
+C:\Users\kuche\Desktop\Praktykant\University-Service\SchoolRegisterSystem.ViewModel\bin\Debug\netcoreapp3.1\SchoolRegisterSystem.BLL.pdb
+C:\Users\kuche\Desktop\Praktykant\University-Service\SchoolRegisterSystem.ViewModel\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.ViewModel.csprojAssemblyReference.cache
+C:\Users\kuche\Desktop\Praktykant\University-Service\SchoolRegisterSystem.ViewModel\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.ViewModel.AssemblyInfoInputs.cache
+C:\Users\kuche\Desktop\Praktykant\University-Service\SchoolRegisterSystem.ViewModel\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.ViewModel.AssemblyInfo.cs
+C:\Users\kuche\Desktop\Praktykant\University-Service\SchoolRegisterSystem.ViewModel\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.ViewModel.csproj.CopyComplete
+C:\Users\kuche\Desktop\Praktykant\University-Service\SchoolRegisterSystem.ViewModel\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.ViewModel.dll
+C:\Users\kuche\Desktop\Praktykant\University-Service\SchoolRegisterSystem.ViewModel\obj\Debug\netcoreapp3.1\SchoolRegisterSystem.ViewModel.pdb
