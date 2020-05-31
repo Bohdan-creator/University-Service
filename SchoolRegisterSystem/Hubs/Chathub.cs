@@ -28,10 +28,14 @@ namespace SchoolRegisterSystem.Hubs
         public void SendMessageToUser(MessageVm message)
         {
             message.Author = Context.User.Identity.Name;
+            var author = _db.Users.FirstOrDefault(u => u.Email == message.Author);
             var recepinient = _db.Users.FirstOrDefault(u => u.UserName == message.RecipientName);
             if (recepinient != null)
             {
+                Clients.User(author.Id.ToString()).SendAsync("ShowMessage", message);
                 Clients.User(recepinient.Id.ToString()).SendAsync("ShowMessage", message);
+                //Clients.All.SendAsync("ShowMessage", message);
+
             }
         }
         public void SetGroups()
