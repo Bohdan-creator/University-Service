@@ -38,6 +38,19 @@ namespace SchoolRegisterSystem.Hubs
 
             }
         }
+        public void SendMessageToGroup(MessageVm message)
+        {
+            message.Author = Context.User.Identity.Name;
+            var author = _db.Users.FirstOrDefault(u => u.Email == message.Author);
+
+            var recepinient = _db.Groups.FirstOrDefault(u => u.Name == message.RecipientName);
+            Clients.User(author.Id.ToString()).SendAsync("ShowMessage", message);
+           // Clients.Group(recepinient.Id.ToString()).SendAsync("ShowMessage", message);
+
+            foreach(var i in recepinient.Students)
+                Clients.User(i.Id.ToString()).SendAsync("ShowMessage", message);
+
+        }
         public void SetGroups()
         {
             var user = _db.Users.FirstOrDefault(u => u.UserName == Context.User.Identity.Name);

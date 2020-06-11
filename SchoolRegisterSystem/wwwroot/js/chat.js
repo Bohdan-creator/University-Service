@@ -27,7 +27,7 @@ $("#sendmessage").click(function (event) {
     }
     const message = {
         Content: $("#message").val(),
-        RecipientName: $("#choose").val() === "User" ? $("#user option:selected").text() : $("#chatgroup option:selected").text()
+        RecipientName: $("#choose").val() === "User" ? $("#user option:selected").text() : $("#chatGroup option:selected").text()
     };
     if ($("#choose").val() === "User") {
         if (message.RecipientName === "All")
@@ -36,7 +36,7 @@ $("#sendmessage").click(function (event) {
             connection.invoke("SendMessageToUser", message);
     }
     else {
-        connection.invoke("Send message to group", message);
+        connection.invoke("SendMessageToGroup", message);
     }
     $("#message").val("").focus();
 });
